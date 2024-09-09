@@ -3,11 +3,11 @@ ________________________________________________________________________________
 This one suggest to get the novatel connect software and configure the hardware. This seems to be the actual fix                              
 https://novatel.com/support/support-materials/software-downloads**                                                                              
                                                                                                                                               
-**I have been able to get past this issue. The issue is caused by the configuration of your specific hardware.                                  
+**"I have been able to get past this issue. The issue is caused by the configuration of your specific hardware.                                  
 In order to fix this issue you will need to have access to the Novatel Connect software (requires a Windows OS).                              
 The fix requires that you configure the correct Serial/USB ports to output Novatel data (this can be configured under the COM PORT Wizard).   
 The SWRI Novatel ROS package has a launch file tester_for_usb.launch which has usb0 set as default.                                           
-Keep in mind that Novatel hardware has USB1, USB2... and COM1, COM2,... but linux systems recognize USB and COM ports on a zero-base system.**
+Keep in mind that Novatel hardware has USB1, USB2... and COM1, COM2,... but linux systems recognize USB and COM ports on a zero-base system."**
 ____________________________________________________________________________________________________________________________________________  
   
 The driver for the oem7:  
