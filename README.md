@@ -12,7 +12,7 @@ https://www.navtechgps.com/novatel_flexpak6_enclosure/
   
   
   
-  
+____________________________________________________________________________________________________________________________________________  
 https://github.com/swri-robotics/novatel_gps_driver/tree/master  
 This driver says it should work with the oem6 however I am getting this error: [ERROR] [1725578278.765605678]: insufficient data rate <Novatel GPS (/dev/ttyUSB0)>: 5.000000 < 20.000000  
 https://github.com/swri-robotics/novatel_gps_driver/issues/44  
@@ -23,10 +23,9 @@ some errors it gives are:
 - Unexpected binary message id  
 - insufficient data rate <Novatel GPS (/dev/ttyUSB1)>: 0.000000 < 0.500000  
 I would recommend playing with the values a bit. Possibly change the input to ttyUSB2 or ttyUSB3
-____________________________________________________________________________________________________________________________________________  
 **#44 also linked to https://github.com/swri-robotics/novatel_gps_driver/issues/6#issuecomment-403187704                                      
-This one suggest to get the novatel connect software and configure the hardware. This seems to be the actual fix                              
-https://novatel.com/support/support-materials/software-downloads**                                                                              
+This one suggest to get the novatel connect software and configure the hardware. This seems to be the actual fix for https://github.com/swri-robotics/novatel_gps_driver/                             
+page to download novatel software: https://novatel.com/support/support-materials/software-downloads**                                                                              
                                                                                                                                               
 **"I have been able to get past this issue. The issue is caused by the configuration of your specific hardware.                                  
 In order to fix this issue you will need to have access to the Novatel Connect software (requires a Windows OS).                              
