@@ -22,6 +22,7 @@ I changed the value and it publishes messages on the /fix topic however it says 
 some errors it gives are:  
 - Unexpected binary message id  
 - insufficient data rate <Novatel GPS (/dev/ttyUSB1)>: 0.000000 < 0.500000  
+
 I would recommend playing with the values a bit. Possibly change the input to ttyUSB2 or ttyUSB3
 
 **#44 also linked to https://github.com/swri-robotics/novatel_gps_driver/issues/6#issuecomment-403187704                                      
